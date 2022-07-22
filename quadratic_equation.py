@@ -14,4 +14,5 @@ def quadratic_equation(a, b, c):
     positive_solution = (-b + cmath.sqrt(b ** 2 - (4 * a * c)))/(2 * a)
     negative_solution = (-b - cmath.sqrt(b ** 2 - (4 * a * c)))/(2 * a)
 
+
     return positive_solution, negative_solution
